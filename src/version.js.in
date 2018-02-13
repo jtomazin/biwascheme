@@ -5,7 +5,9 @@
  * @license Licensed under the MIT license.
  */
 
-var BiwaScheme = BiwaScheme || {};
+//var BiwaScheme = BiwaScheme || {};
+var BiwaScheme = {}; // maybe this will help
+var _ = require("lodash")._; // hack
 
 BiwaScheme.Version = "@VERSION@";  // TODO: deprecate this
 BiwaScheme.VERSION = "@VERSION@";
